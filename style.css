@@ -27,6 +27,26 @@ body {
     font-size: 18px;
 }
 
-.navbar {
-    color: whitesmoke;
+.navbar.is-link {
+    background-color: lightgrey;
+}
+
+.navbar.is-link .navbar-end .navbar-link, .navbar.is-link .navbar-end>.navbar-item, .navbar.is-link .navbar-start .navbar-link, .navbar.is-link .navbar-start>.navbar-item {
+    color: maroon;
+    font-weight: bold;
+}
+
+#myportfolio {  
+    color: brown;
+}
+
+#image-tammy {
+    height: 400px;
+    width: 300px;
+    align-content: flex-start;
+    display: flex;
+}
+
+.hero-body {
+    padding-left: 50px;
 }
